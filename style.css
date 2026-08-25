@@ -1,1 +1,85 @@
 
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF0F5; /* Fundo suave em rosa clarinho */
+}
+
+header {
+    background-color: #0A192F; /* Azul escuro principal */
+    color: #FFD1DC; /* Texto em rosa claro */
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px;
+    border-bottom: 4px solid #FFD1DC;
+}
+
+main {
+    background-color: #FFF0F5;
+    color: #0A192F; /* Texto em azul escuro */
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+
+    border: 2px solid #0A192F; /* Borda em azul escuro */
+    background-color: #FFFFFF; /* Card branco para legibilidade */
+    border-radius: 8px;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 280px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #FFD1DC;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #0A192F;
+}
+
+.artigo-fonte {
+    font-size: 0.85em;
+    color: #555555;
+    font-style: italic;
+}
+
+button {
+    background-color: #0A192F;
+    color: #FFD1DC;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 4px;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #1E3A8A;
+}
+
+button:active {
+    transform: scale(0.95);
+}
